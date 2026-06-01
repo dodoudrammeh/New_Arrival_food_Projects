@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f9f9f0;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  background: blue;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+.gap-x-2 {
+  gap: 0.5rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.max-container {
+  width: 1500px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.hero-container {
+  background: rgb(1, 1, 65);
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+.new-arrival-container {
+  padding: 5rem 0;
+}
+
+.new-arrival-title {
+  font-size: 2.8rem;
+  /*  */
+}
+
+.new-arrival-description {
+  margin: 1rem;
+}
+.new-arrival-content {
+  margin-top: 3rem;
+}
+.new-arrival-content > div {
+  gap: 1.2rem;
+}
+
+.card {
+  width: 22%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card > img {
+  width: 100%;
+  height: 250px;
+}
+
+.card-body {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card > h3 {
+  color: rgb(12, 12, 12);
+}
+
+.card > p {
+  color: #464343;
+}
+
+.card > .card-body > button {
+  background: blue;
+  color: white;
+  padding: 10px 12px;
+  border: 0;
+  cursor: pointer;
+}
